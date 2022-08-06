@@ -16,7 +16,7 @@ const calculateBill = () => {
 
   const perPersonTotal = total / numberOfPeople;
 
-  perPersonTotalDiv.innerText = `$${perPersonTotal.toFixed(2)}`;
+  perPersonTotalDiv.innerText = `₹${perPersonTotal.toFixed(2)}`;
 };
 
 const increasePeople = () => {
